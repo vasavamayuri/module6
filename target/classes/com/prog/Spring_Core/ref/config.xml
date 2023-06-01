@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+   
+   xmlns:p="http://www.springframework.org/schema/ps" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    
+   <bean id="ad" class="com.prog.Spring_Core.ref.Address" >
+    <property name="id" value="101" ></property>
+        <property name="city" value="pune" >
+    
+   
+    </property>
+    
+     <property name="name">
+    <value>Mayuri</value>
+    </property>
+   
+    <property name="address">
+    <value>Bharuch</value>
+    </property> 
+   
+    </bean> 
+    
+    
+  
+    
+    
+    
+    
+
+</beans>
